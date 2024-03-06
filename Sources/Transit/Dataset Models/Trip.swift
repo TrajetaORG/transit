@@ -61,6 +61,22 @@ public enum Direction: UInt, Hashable {
   case outbound = 1
 }
 
+// MARK: - WheelChair
+
+public enum WheelChair: UInt, Hashable {
+  case noInformation = 0
+  case doesAccommodate = 1
+  case doesNotAccommodate = 2
+}
+
+// MARK: Bikes
+
+public enum Bikes: UInt, Hashable {
+  case noInformation = 0
+  case doesAccommodate = 1
+  case doesNotAccommodate = 2
+}
+
 // MARK: - Trip
 
 /// A representation of a single Trip record.
